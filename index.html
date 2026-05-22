@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Jiatong (Jasmine) Yao · 姚佳彤 — Human Capital & Talent Operations</title>
+<meta name="description" content="Jasmine Yao (姚佳彤) — NUS Human Capital Management & Analytics Master's candidate. HR / Talent Operations portfolio." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Serif+SC:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============== TOP NAV ============== -->
+<header class="nav" id="topnav">
+  <div class="nav__inner">
+    <a class="nav__brand" href="#hero">
+      <span class="brand-mark">JY</span>
+      <span class="brand-name">
+        <span data-en="Jasmine Yao · " data-zh="姚佳彤 · ">姚佳彤 · </span><em data-en="姚佳彤" data-zh="Jasmine">Jasmine</em>
+      </span>
+    </a>
+    <nav class="nav__links">
+      <a href="#profile" data-en="Profile" data-zh="简介">简介</a>
+      <a href="#education" data-en="Education" data-zh="教育">教育</a>
+      <a href="#experience" data-en="Experience" data-zh="经历">经历</a>
+      <a href="#projects" data-en="Projects" data-zh="项目">项目</a>
+      <a href="#capabilities" data-en="Capabilities" data-zh="能力">能力</a>
+      <a href="#contact" data-en="Contact" data-zh="联系">联系</a>
+    </nav>
+    <div class="nav__actions">
+      <button class="lang-btn" id="langToggle" aria-label="Toggle language">EN / 中文</button>
+      <button class="theme-btn" id="themeToggle" aria-label="Toggle theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============== HERO ============== -->
+<section class="hero" id="hero">
+  <div class="hero__bg" aria-hidden="true">
+    <div class="orb orb--1"></div>
+    <div class="orb orb--2"></div>
+    <div class="orb orb--3"></div>
+  </div>
+  <div class="hero__inner hero__inner--split">
+    <div class="hero__text">
+      <div class="hero__status">
+        <span class="dot"></span>
+        <span data-en="HR as my career path" data-zh="以 HR 为职业发展方向">以 HR 为职业发展方向</span>
+      </div>
+      <h1 class="hero__title">
+        <span class="hero__hi" data-en="Hi, I'm" data-zh="你好，我是">你好，我是</span>
+        <span class="hero__name" data-en="Jasmine Yao" data-zh="Jasmine Yao">Jasmine Yao</span>
+        <span class="hero__name-zh" data-en="姚佳彤" data-zh="姚佳彤">姚佳彤</span>
+      </h1>
+      <p class="hero__sub" data-en="M.Sc. Human Capital Management &amp; Analytics @ NUS · Aspiring people strategist building data-driven, human-centered HR." data-zh="新加坡国立大学 · 人力资本管理与分析硕士 · 致力于让招聘更精准、让组织更懂人">
+        新加坡国立大学 · 人力资本管理与分析硕士 · 致力于让招聘更精准、让组织更懂人
+      </p>
+      <div class="hero__tags">
+        <span class="tag" data-en="Talent Acquisition" data-zh="人才招聘">人才招聘</span>
+        <span class="tag" data-en="People Analytics" data-zh="人力数据分析">人力数据分析</span>
+        <span class="tag" data-en="Org Design" data-zh="组织设计">组织设计</span>
+        <span class="tag" data-en="Global Sourcing" data-zh="国际化寻源">国际化寻源</span>
+        <span class="tag" data-en="HR Tech" data-zh="HR 数字化">HR 数字化</span>
+      </div>
+      <div class="hero__cta">
+        <a href="#experience" class="btn btn--primary">
+          <span data-en="Explore experience" data-zh="查看经历">查看经历</span>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#contact" class="btn btn--ghost">
+          <span data-en="Get in touch" data-zh="联系我">联系我</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero__portrait">
+      <div class="portrait__ring" aria-hidden="true"></div>
+      <div class="portrait__shape">
+        <img src="assets/profile.jpg" alt="Jasmine Yao · 姚佳彤" loading="eager" />
+      </div>
+      <div class="portrait__chip portrait__chip--top">
+        <span>NUS · HCMA</span>
+      </div>
+      <div class="portrait__chip portrait__chip--bottom">
+        <span data-en="Nankai · HRM" data-zh="南开 · HRM">南开 · HRM</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero__scroll" aria-hidden="true">
+    <span data-en="Scroll" data-zh="向下滚动">向下滚动</span>
+    <div class="hero__scroll-line"></div>
+  </div>
+</section>
+
+<!-- ============== PROFILE ============== -->
+<section class="section" id="profile">
+  <div class="section__head">
+    <span class="section__no">01</span>
+    <h2 class="section__title" data-en="Profile" data-zh="个人简介">个人简介</h2>
+  </div>
+  <div class="profile__grid">
+    <div class="profile__photo">
+      <div class="photo-frame">
+        <img src="assets/profile.jpg" alt="Jasmine Yao · 姚佳彤" loading="lazy" />
+        <div class="photo-frame__caption">
+          <span data-en="Graduation · Nankai University, 2025" data-zh="南开大学 · 2025 届毕业">南开大学 · 2025 届毕业</span>
+        </div>
+      </div>
+    </div>
+    <div class="profile__text">
+      <p data-en="HR &amp; Talent Operations professional with hands-on experience across <strong>Tencent (IEG Global), Xiaohongshu (RED), Huawei, and PwC</strong> — covering full-cycle recruiting, organizational design, and people analytics."
+         data-zh="先后在 <strong>腾讯（IEG Global）、小红书、华为、普华永道</strong> 等头部企业实习，覆盖全流程招聘、组织设计与人力数据分析。">
+         先后在 <strong>腾讯（IEG Global）、小红书、华为、普华永道</strong> 等头部企业实习，覆盖全流程招聘、组织设计与人力数据分析。
+      </p>
+      <p data-en="Bilingual (EN / CN, IELTS 7.0), with study experiences in the UK, France, and Singapore. I believe great HR combines <em>data, technology, and human insight</em>."
+         data-zh="中英双语沟通（雅思 7.0），曾在英国、法国及新加坡学习。我相信好的 HR 应当兼顾 <em>数据、技术与对人的洞察</em>。">
+         中英双语沟通（雅思 7.0），曾在英国、法国及新加坡学习。我相信好的 HR 应当兼顾 <em>数据、技术与对人的洞察</em>。
+      </p>
+      <ul class="profile__highlights">
+        <li><strong>4+ </strong><span data-en="Top-tier HR internships" data-zh="头部企业 HR 实习">头部企业 HR 实习</span></li>
+        <li><strong>15+ </strong><span data-en="Roles delivered E2E at Tencent IEG Global" data-zh="腾讯 IEG Global 端到端岗位交付">腾讯 IEG Global 端到端岗位交付</span></li>
+        <li><strong>500+ </strong><span data-en="Senior employees in Xiaohongshu workforce review" data-zh="小红书岗位盘点覆盖高级员工">小红书岗位盘点覆盖高级员工</span></li>
+        <li><strong>1 </strong><span data-en="Open-source AI hiring tool on GitHub" data-zh="开源 AI 招聘工具（GitHub）">开源 AI 招聘工具（GitHub）</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============== EDUCATION ============== -->
+<section class="section section--alt" id="education">
+  <div class="section__head">
+    <span class="section__no">02</span>
+    <h2 class="section__title" data-en="Education" data-zh="教育经历">教育经历</h2>
+  </div>
+  <div class="edu__list">
+
+    <article class="edu__card">
+      <div class="edu__head">
+        <div>
+          <h3 data-en="National University of Singapore" data-zh="新加坡国立大学">新加坡国立大学</h3>
+          <p class="edu__meta" data-en="NUS Business School · QS #8" data-zh="NUS 商学院 · QS 全球第 8">NUS 商学院 · QS 全球第 8</p>
+        </div>
+        <span class="edu__date">2026.01 – 2027.06</span>
+      </div>
+      <p class="edu__degree"
+         data-en="M.Sc. <strong>Human Capital Management &amp; Analytics (HCMA)</strong>"
+         data-zh="硕士 · <strong>人力资本管理与分析（HCMA）</strong>">
+         硕士 · <strong>人力资本管理与分析（HCMA）</strong>
+      </p>
+      <div class="edu__courses">
+        <span data-en="Quantitative Methods in HRM" data-zh="人力资源管理定量方法">人力资源管理定量方法</span>
+        <span data-en="Labor &amp; Employment Law" data-zh="劳工及雇佣法">劳工及雇佣法</span>
+        <span data-en="Compensation &amp; Performance" data-zh="薪酬与绩效管理">薪酬与绩效管理</span>
+        <span data-en="Negotiation &amp; Dispute Resolution" data-zh="谈判与纷争解决">谈判与纷争解决</span>
+        <span data-en="Talent Assessment &amp; Selection" data-zh="人才评估与选拔">人才评估与选拔</span>
+      </div>
+    </article>
+
+    <article class="edu__card">
+      <div class="edu__head">
+        <div>
+          <h3 data-en="Nankai University" data-zh="南开大学">南开大学</h3>
+          <p class="edu__meta" data-en="Business School · 985 / Project 211" data-zh="商学院 · 985 / 211 工程">商学院 · 985 / 211 工程</p>
+        </div>
+        <span class="edu__date">2021.09 – 2025.06</span>
+      </div>
+      <p class="edu__degree"
+         data-en="B.Mgt. <strong>Human Resource Management</strong> · GPA 3.6 / 4.0"
+         data-zh="本科 · <strong>人力资源管理</strong> · GPA 3.6 / 4.0">
+         本科 · <strong>人力资源管理</strong> · GPA 3.6 / 4.0
+      </p>
+      <div class="edu__courses">
+        <span data-en="HRM" data-zh="人力资源管理">人力资源管理</span>
+        <span data-en="Labor Economics" data-zh="劳动经济学">劳动经济学</span>
+        <span data-en="Organization Theory" data-zh="组织理论设计">组织理论设计</span>
+        <span data-en="Strategic HRM" data-zh="战略人力资源">战略人力资源</span>
+        <span data-en="Statistics" data-zh="统计学">统计学</span>
+        <span data-en="Python Fundamentals" data-zh="Python 基础">Python 基础</span>
+        <span data-en="Project Management" data-zh="项目管理">项目管理</span>
+        <span data-en="Accounting" data-zh="会计学">会计学</span>
+      </div>
+      <ul class="edu__honors">
+        <li data-en="🏆 Nankai Student Service Scholarship (2022–2023)" data-zh="🏆 南开大学 2022–2023 年度学生服务奖学金">🏆 南开大学 2022–2023 年度学生服务奖学金</li>
+        <li data-en="🏆 Outstanding Student Cadre, Nankai University" data-zh="🏆 南开大学优秀学生干部">🏆 南开大学优秀学生干部</li>
+        <li data-en="🏆 Best Debater · Dean's Cup Debate Tournament" data-zh="🏆 院长杯辩论赛最佳辩手">🏆 院长杯辩论赛最佳辩手</li>
+        <li data-en="🌍 Government-sponsored exchange to <strong>Rennes, France</strong>" data-zh="🌍 公派赴 <strong>法国雷恩</strong> 交换">🌍 公派赴 <strong>法国雷恩</strong> 交换</li>
+      </ul>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============== EXPERIENCE ============== -->
+<section class="section" id="experience">
+  <div class="section__head">
+    <span class="section__no">03</span>
+    <h2 class="section__title" data-en="Experience" data-zh="实习经历">实习经历</h2>
+  </div>
+
+  <div class="timeline">
+
+    <!-- 1. Tencent -->
+    <article class="tl__item">
+      <div class="tl__dot"></div>
+      <div class="tl__card">
+        <header class="tl__head">
+          <div>
+            <h3 data-en="Tencent (Singapore) · WeChat International" data-zh="腾讯（新加坡）· 微信国际有限公司">腾讯（新加坡）· 微信国际有限公司</h3>
+            <p class="tl__role" data-en="IEG Games · Overseas HRBP Intern" data-zh="IEG Games · 海外招聘 HRBP 实习生">IEG Games · 海外招聘 HRBP 实习生</p>
+          </div>
+          <span class="tl__date" data-en="2026.04 – Present" data-zh="2026.04 – 至今">2026.04 – 至今</span>
+        </header>
+        <ul class="tl__bullets">
+          <li data-en="<strong>End-to-end recruiting:</strong> Independently delivered <strong>15+ requisitions</strong> across IEG-Global (Japan, Korea, SEA) — from intake &amp; JD optimization, sourcing, screening, interview coordination, to offer &amp; comp negotiation. Monthly avg: 2 experienced + 4 campus offers; consistently exceeded team targets."
+              data-zh="<strong>全流程招聘：</strong>独立负责 IEG-Global <strong>15+ 社招/校招岗位</strong>端到端交付，覆盖日韩及东南亚市场，从需求对齐、JD 优化、寻访、电话初筛、面试协调到 offer 发放及谈薪全闭环；月均产出社招 2 人、校招 4 人，超额达成团队交付目标。">
+              <strong>全流程招聘：</strong>独立负责 IEG-Global <strong>15+ 社招/校招岗位</strong>端到端交付，覆盖日韩及东南亚市场，从需求对齐、JD 优化、寻访、电话初筛、面试协调到 offer 发放及谈薪全闭环；月均产出社招 2 人、校招 4 人，超额达成团队交付目标。
+          </li>
+          <li data-en="<strong>Global sourcing:</strong> Boolean search &amp; multi-dimensional strategies on LinkedIn to engage senior talent in compliance, user/strategy research, DevOps and engineering — supporting IEG's overseas expansion and employer brand."
+              data-zh="<strong>国际人才寻访：</strong>熟练运用 Boolean Research 与多维搜索策略，通过 LinkedIn 定向寻访海外合规风控、用户与战略研究、运维及开发工程师等高潜候选人，支撑 IEG 海外业务快速扩张与雇主品牌建设。">
+              <strong>国际人才寻访：</strong>熟练运用 Boolean Research 与多维搜索策略，通过 LinkedIn 定向寻访海外合规风控、用户与战略研究、运维及开发工程师等高潜候选人，支撑 IEG 海外业务快速扩张与雇主品牌建设。
+          </li>
+          <li data-en="<strong>HR-tech tooling:</strong> Built a <strong>locally-deployed AI Chrome extension</strong> for LinkedIn-profile-based candidate evaluation — standardizing &amp; automating first-round screening (<a href='#projects'>see Projects ↓</a>)."
+              data-zh="<strong>提效工具开发：</strong>基于过往数据沉淀海外招聘评估维度，开发可<strong>本地部署的 AI Chrome 插件</strong>，对 LinkedIn 公开简历进行自动化人才评估，显著提升候选人筛选效率与匹配度（<a href='#projects'>详见下方项目 ↓</a>）。">
+              <strong>提效工具开发：</strong>基于过往数据沉淀海外招聘评估维度，开发可<strong>本地部署的 AI Chrome 插件</strong>，对 LinkedIn 公开简历进行自动化人才评估，显著提升候选人筛选效率与匹配度（<a href='#projects'>详见下方项目 ↓</a>）。
+          </li>
+          <li data-en="<strong>Funnel optimization:</strong> Weekly funnel reports, conversion &amp; drop-off attribution, dynamic persona iteration — talent persona for an FMCG e-commerce role recognized as a benchmark case."
+              data-zh="<strong>驱动招聘优化：</strong>定期输出招聘漏斗报表，复盘转化率、流失节点与归因分析；结合业务反馈动态迭代人才画像与面试准入标准，持续提升交付质量；零食酒饮平台运营岗位人才画像获业务认可并作为优秀案例推广。">
+              <strong>驱动招聘优化：</strong>定期输出招聘漏斗报表，复盘转化率、流失节点与归因分析；结合业务反馈动态迭代人才画像与面试准入标准，持续提升交付质量；零食酒饮平台运营岗位人才画像获业务认可并作为优秀案例推广。
+          </li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- 2. Xiaohongshu -->
+    <article class="tl__item">
+      <div class="tl__dot"></div>
+      <div class="tl__card">
+        <header class="tl__head">
+          <div>
+            <h3 data-en="Xiaohongshu (RED) · Yuliangsheng Tech" data-zh="小红书 · 上海宇量昇科技有限公司">小红书 · 上海宇量昇科技有限公司</h3>
+            <p class="tl__role" data-en="Org &amp; Talent Department · Position Management (COE)" data-zh="组织干部与人才部 · 岗位管理（COE）">组织干部与人才部 · 岗位管理（COE）</p>
+          </div>
+          <span class="tl__date">2025.08 – 2025.12</span>
+        </header>
+        <ul class="tl__bullets">
+          <li data-en="<strong>Position &amp; workforce planning:</strong> Annual position review, headcount control and promotion approval for <strong>500+ senior employees</strong> across 7 BUs; built an org-structure metric model and HR data pipeline to support diagnostics &amp; decisions; participated in HRIS rebuild &amp; field design."
+              data-zh="<strong>岗位与人员规划：</strong>对 7 大业务部门共计 <strong>500+ 高级别员工</strong> 开展年度岗位盘点、编制管控及干部任命晋升核准；搭建组织结构度量模型，完成人力数据清洗、分析与可视化，支撑组织诊断与人力决策；参与 HRIS 系统重构与字段设计。">
+              <strong>岗位与人员规划：</strong>对 7 大业务部门共计 <strong>500+ 高级别员工</strong> 开展年度岗位盘点、编制管控及干部任命晋升核准；搭建组织结构度量模型，完成人力数据清洗、分析与可视化，支撑组织诊断与人力决策；参与 HRIS 系统重构与字段设计。
+          </li>
+          <li data-en="<strong>Expert pipeline:</strong> Multi-channel research (LinkedIn, corporate sites, network interviews) on competitor talent paths; led the full lifecycle of expert-pipeline workshops with reusable case libraries that drove cross-team adoption."
+              data-zh="<strong>专家梯队建设：</strong>通过 LinkedIn 管理者信息、企业官网与人脉访谈多渠道采集信息，系统调研竞对公司人才发展路径，输出专家价值发挥指导方案；牵头梯队建设研讨会全流程（议题设计、综合统筹），沉淀多主题案例并推动跨团队复用。">
+              <strong>专家梯队建设：</strong>通过 LinkedIn 管理者信息、企业官网与人脉访谈多渠道采集信息，系统调研竞对公司人才发展路径，输出专家价值发挥指导方案；牵头梯队建设研讨会全流程（议题设计、综合统筹），沉淀多主题案例并推动跨团队复用。
+          </li>
+          <li data-en="<strong>Policy &amp; compliance:</strong> Operated the HR Committee, refined policies for standardized rollout; drafted R&amp;D career-development handbook (roles, paths, promotion rules); benchmarked title-review against Shanghai policy and proposed optimization."
+              data-zh="<strong>制度合规细化：</strong>负责集团人力资源委员会日常运营，细化政策与细则，保障制度标准化推广；撰写研发体系职业发展说明书，明确角色权责、发展通道与晋升规则；开展职称评审专项洞察，对标上海政策沉淀实操经验并提出优化建议。">
+              <strong>制度合规细化：</strong>负责集团人力资源委员会日常运营，细化政策与细则，保障制度标准化推广；撰写研发体系职业发展说明书，明确角色权责、发展通道与晋升规则；开展职称评审专项洞察，对标上海政策沉淀实操经验并提出优化建议。
+          </li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- 3. Huawei -->
+    <article class="tl__item">
+      <div class="tl__dot"></div>
+      <div class="tl__card">
+        <header class="tl__head">
+          <div>
+            <h3 data-en="Huawei · Beijing Research Institute" data-zh="华为技术有限公司 · 北京研究所">华为技术有限公司 · 北京研究所</h3>
+            <p class="tl__role" data-en="Recruiting &amp; Allocation · HR Intern (Campus COE)" data-zh="招聘调配部 · 人力资源实习生（校园招聘 COE）">招聘调配部 · 人力资源实习生（校园招聘 COE）</p>
+          </div>
+          <span class="tl__date">2024.07 – 2024.09</span>
+        </header>
+        <ul class="tl__bullets">
+          <li data-en="<strong>Talent mapping:</strong> Sole HR intern for the Beijing-Tianjin-Northeast region focused on <strong>'Genius Youth'</strong> sourcing in CS/AI; mapped target labs' academic genealogies, key influencers and signature works to expand internal talent pool."
+              data-zh="<strong>人才 Mapping 与策略输出：</strong>作为京津东北地区唯一人力实习生，聚焦 CS/AI 领域 <strong>「天才少年」</strong> 定向寻源，系统梳理目标实验室学术谱系与人才网络，通过生源名录、关键线人、学术代表作等多重线索挖掘高潜，建联以扩充内部人才池。">
+              <strong>人才 Mapping 与策略输出：</strong>作为京津东北地区唯一人力实习生，聚焦 CS/AI 领域 <strong>「天才少年」</strong> 定向寻源，系统梳理目标实验室学术谱系与人才网络，通过生源名录、关键线人、学术代表作等多重线索挖掘高潜，建联以扩充内部人才池。
+          </li>
+          <li data-en="<strong>Market intelligence:</strong> Delivered <strong>3 industry insight reports</strong> on the tech talent landscape &amp; campus-recruiting strategy — recognized by both the recruiting platform and business stakeholders."
+              data-zh="<strong>市场洞察：</strong>开展科技行业人才市场调研，分析竞争格局与往期校招数据，输出 <strong>3 份行业洞察与招聘策略报告</strong>，获招调平台与业务认可。">
+              <strong>市场洞察：</strong>开展科技行业人才市场调研，分析竞争格局与往期校招数据，输出 <strong>3 份行业洞察与招聘策略报告</strong>，获招调平台与业务认可。
+          </li>
+          <li data-en="<strong>Campus delivery &amp; employer branding:</strong> Co-organized 5 large-scale fairs &amp; senior-talent salons; led a CS&amp;AI summit (intake, on-site coordination, retro), conducted semi-structured interviews with core candidates and designed personalized engagement strategies."
+              data-zh="<strong>校招交付与雇主品牌建设：</strong>统筹北京/天津地区校招全流程，协办 5 场大型招聘会与高端人才座谈会；主导 CS&amp;AI 主题峰会前期对接、现场统筹与后期复盘，对核心候选人展开半结构化访谈并设计个性化吸引策略，增强雇主品牌曝光。">
+              <strong>校招交付与雇主品牌建设：</strong>统筹北京/天津地区校招全流程，协办 5 场大型招聘会与高端人才座谈会；主导 CS&amp;AI 主题峰会前期对接、现场统筹与后期复盘，对核心候选人展开半结构化访谈并设计个性化吸引策略，增强雇主品牌曝光。
+          </li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- 4. PwC -->
+    <article class="tl__item">
+      <div class="tl__dot"></div>
+      <div class="tl__card">
+        <header class="tl__head">
+          <div>
+            <h3 data-en="PwC · Beijing Office" data-zh="普华永道中天会计师事务所 · 北京分所">普华永道中天会计师事务所 · 北京分所</h3>
+            <p class="tl__role" data-en="FCS – Shared Service Center · HR Intern" data-zh="FCS – SSC · 人力资源实习生">FCS – SSC · 人力资源实习生</p>
+          </div>
+          <span class="tl__date">2024.04 – 2024.05</span>
+        </header>
+        <ul class="tl__bullets">
+          <li data-en="<strong>Employee lifecycle:</strong> On/off-boarding paperwork, contract signing and personnel-file management — ensuring full HR-process compliance."
+              data-zh="<strong>员工全周期人事管理：</strong>负责员工入离职材料审核手续办理、劳动合同签署与档案管理，保障人事流程合规、高效落地。">
+              <strong>员工全周期人事管理：</strong>负责员工入离职材料审核手续办理、劳动合同签署与档案管理，保障人事流程合规、高效落地。
+          </li>
+          <li data-en="<strong>Digital transformation:</strong> Built an Excel-based directory &amp; index system to refactor the Beijing office's problem archives — significantly improved retrieval efficiency and governance standards."
+              data-zh="<strong>数字化转型：</strong>利用 Excel 搭建目录与索引体系，梳理北京分所问题档案，通过数字化治理显著提升检索效率与管理规范。">
+              <strong>数字化转型：</strong>利用 Excel 搭建目录与索引体系，梳理北京分所问题档案，通过数字化治理显著提升检索效率与管理规范。
+          </li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- 5. Shuxing -->
+    <article class="tl__item">
+      <div class="tl__dot"></div>
+      <div class="tl__card">
+        <header class="tl__head">
+          <div>
+            <h3 data-en="Shuxing Tech (Beijing)" data-zh="书行科技（北京）有限公司">书行科技（北京）有限公司</h3>
+            <p class="tl__role" data-en="Commercialization · HRBP Intern" data-zh="商业化方向 · HRBP 实习生">商业化方向 · HRBP 实习生</p>
+          </div>
+          <span class="tl__date">2024.01 – 2024.03</span>
+        </header>
+        <ul class="tl__bullets">
+          <li data-en="<strong>Full-cycle recruiting:</strong> Deeply supported the commercialization team — covering 3C / auto / FMCG operations &amp; planning roles, leveraging BOSS, Liepin, internal talent pools and headhunter resources to activate inactive candidates and accelerate response. Total outcome: <strong>4 experienced + 13 intern offers</strong>."
+              data-zh="<strong>全流程招聘交付：</strong>深度支持商业化部门社招及校招，覆盖耐消（3C/汽车）、快消行业运营与策划岗位；依托 BOSS、猎聘、人才库及猎头资源，高效激活存量候选人、提升响应效率；实习期间累计发出 <strong>offer：社招 4 人、实习生 13 人</strong>。">
+              <strong>全流程招聘交付：</strong>深度支持商业化部门社招及校招，覆盖耐消（3C/汽车）、快消行业运营与策划岗位；依托 BOSS、猎聘、人才库及猎头资源，高效激活存量候选人、提升响应效率；实习期间累计发出 <strong>offer：社招 4 人、实习生 13 人</strong>。
+          </li>
+        </ul>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============== PROJECTS ============== -->
+<section class="section section--alt" id="projects">
+  <div class="section__head">
+    <span class="section__no">04</span>
+    <h2 class="section__title" data-en="Projects" data-zh="项目作品">项目作品</h2>
+  </div>
+
+  <div class="projects__grid">
+    <article class="proj__card proj__card--featured">
+      <div class="proj__badge" data-en="Featured · Open Source" data-zh="主推 · 开源项目">主推 · 开源项目</div>
+      <h3 class="proj__title">LinkedIn Sourcing Assistant</h3>
+      <p class="proj__sub" data-en="AI-powered Chrome Extension (MV3) · MIT License" data-zh="AI 驱动的 Chrome 扩展（MV3）· MIT 协议">AI 驱动的 Chrome 扩展（MV3）· MIT 协议</p>
+      <p class="proj__desc"
+         data-en="A locally-deployed AI Chrome extension that scores LinkedIn candidates against custom job descriptions in real time. Built during my Tencent IEG-Global internship to standardize and automate first-round screening."
+         data-zh="一款可本地部署的 AI Chrome 扩展，能对 LinkedIn 候选人按自定义 JD 实时评分。在腾讯 IEG-Global 实习期间开发，目标是标准化、自动化简历初筛。">
+         一款可本地部署的 AI Chrome 扩展，能对 LinkedIn 候选人按自定义 JD 实时评分。在腾讯 IEG-Global 实习期间开发，目标是标准化、自动化简历初筛。
+      </p>
+      <ul class="proj__feats">
+        <li data-en="✅ <strong>100% local data</strong> — chrome.storage.local, no server" data-zh="✅ <strong>数据 100% 本地</strong> — chrome.storage.local，不上云">✅ <strong>数据 100% 本地</strong> — chrome.storage.local，不上云</li>
+        <li data-en="📊 <strong>JD-driven matching</strong> across 18 roles, 384 SG schools, 96 companies" data-zh="📊 <strong>JD 驱动匹配</strong>：覆盖 18 个岗位、384 所新加坡院校、96 家公司">📊 <strong>JD 驱动匹配</strong>：覆盖 18 个岗位、384 所新加坡院校、96 家公司</li>
+        <li data-en="🧠 <strong>Self-learning patches</strong> from positive/negative examples" data-zh="🧠 <strong>自学习补丁</strong>：基于正/反例自动迭代评分">🧠 <strong>自学习补丁</strong>：基于正/反例自动迭代评分</li>
+        <li data-en="🎯 <strong>Real-time scoring panel</strong> on LinkedIn profile pages" data-zh="🎯 <strong>实时评分面板</strong>：直接嵌在 LinkedIn 个人页">🎯 <strong>实时评分面板</strong>：直接嵌在 LinkedIn 个人页</li>
+      </ul>
+      <div class="proj__stack">
+        <span>JavaScript</span>
+        <span>Chrome Extension API</span>
+        <span>Claude / OpenAI API</span>
+        <span>Python</span>
+      </div>
+      <div class="proj__links">
+        <a class="btn btn--primary btn--sm" href="https://github.com/jasmineyao1112/linkedin-sourcing-ext" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2.01c-3.2.69-3.87-1.54-3.87-1.54-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.34.96.1-.74.4-1.25.72-1.54-2.55-.29-5.24-1.27-5.24-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.16 1.17a10.96 10.96 0 0 1 5.75 0c2.2-1.48 3.16-1.17 3.16-1.17.62 1.58.23 2.75.11 3.04.74.8 1.18 1.82 1.18 3.07 0 4.39-2.69 5.36-5.25 5.64.41.35.78 1.04.78 2.1v3.11c0 .31.21.67.8.56C20.21 21.39 23.5 17.07 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>
+          <span data-en="View on GitHub" data-zh="访问 GitHub">访问 GitHub</span>
+        </a>
+      </div>
+    </article>
+
+    <article class="proj__card">
+      <div class="proj__badge proj__badge--alt" data-en="Internship Deliverable" data-zh="实习产出">实习产出</div>
+      <h3 class="proj__title" data-en="Tech Talent Market Intelligence" data-zh="科技行业人才市场洞察">科技行业人才市场洞察</h3>
+      <p class="proj__sub" data-en="3 industry reports · Huawei BJ Research Institute" data-zh="3 份行业报告 · 华为北研所">3 份行业报告 · 华为北研所</p>
+      <p class="proj__desc"
+         data-en="Deep-dive reports on the CS/AI tech talent landscape, competitor mapping, and historical campus-recruiting data — informing 2024 campus strategy."
+         data-zh="围绕 CS/AI 行业人才格局、竞对画像与历年校招数据的深度报告，直接支撑 2024 年校招策略制定。">
+         围绕 CS/AI 行业人才格局、竞对画像与历年校招数据的深度报告，直接支撑 2024 年校招策略制定。
+      </p>
+      <div class="proj__stack">
+        <span data-en="Market Research" data-zh="市场调研">市场调研</span>
+        <span>Excel</span>
+        <span data-en="Talent Mapping" data-zh="人才地图">人才地图</span>
+      </div>
+    </article>
+
+    <article class="proj__card">
+      <div class="proj__badge proj__badge--alt" data-en="Internship Deliverable" data-zh="实习产出">实习产出</div>
+      <h3 class="proj__title" data-en="Org Structure Metric Model" data-zh="组织结构度量模型">组织结构度量模型</h3>
+      <p class="proj__sub" data-en="Xiaohongshu · Position Management COE" data-zh="小红书 · 岗位管理 COE">小红书 · 岗位管理 COE</p>
+      <p class="proj__desc"
+         data-en="Built a metric model to diagnose org structure across 7 BUs (500+ senior employees), enabling data-driven workforce decisions."
+         data-zh="搭建可量化的组织结构度量模型，覆盖 7 大业务部门 500+ 高级员工，支撑数据驱动的人力决策。">
+         搭建可量化的组织结构度量模型，覆盖 7 大业务部门 500+ 高级员工，支撑数据驱动的人力决策。
+      </p>
+      <div class="proj__stack">
+        <span data-en="People Analytics" data-zh="人力数据分析">人力数据分析</span>
+        <span>Excel</span>
+        <span data-en="Org Design" data-zh="组织设计">组织设计</span>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============== CAPABILITIES ============== -->
+<section class="section" id="capabilities">
+  <div class="section__head">
+    <span class="section__no">05</span>
+    <h2 class="section__title" data-en="Capabilities" data-zh="核心能力">核心能力</h2>
+  </div>
+
+  <div class="cap__grid">
+    <div class="cap__col">
+      <h3 data-en="🎯 Talent Acquisition" data-zh="🎯 人才招聘">🎯 人才招聘</h3>
+      <ul>
+        <li data-en="End-to-end recruiting (intake → offer)" data-zh="端到端招聘（需求对齐 → offer 发放）">端到端招聘（需求对齐 → offer 发放）</li>
+        <li data-en="Boolean &amp; multi-dimensional sourcing" data-zh="Boolean Research 与多维寻源策略">Boolean Research 与多维寻源策略</li>
+        <li data-en="Cross-border talent mapping (CN / JP / KR / SEA)" data-zh="跨境人才地图（中/日/韩/东南亚）">跨境人才地图（中/日/韩/东南亚）</li>
+        <li data-en="Campus &amp; experienced hiring" data-zh="校招与社招全流程">校招与社招全流程</li>
+        <li data-en="Employer branding &amp; talent salons" data-zh="雇主品牌建设 & 高端人才座谈">雇主品牌建设 & 高端人才座谈</li>
+      </ul>
+    </div>
+    <div class="cap__col">
+      <h3 data-en="📊 People Analytics" data-zh="📊 人力数据分析">📊 人力数据分析</h3>
+      <ul>
+        <li data-en="Funnel reporting &amp; conversion attribution" data-zh="招聘漏斗报表与转化归因">招聘漏斗报表与转化归因</li>
+        <li data-en="Workforce planning &amp; headcount control" data-zh="人员规划与编制管控">人员规划与编制管控</li>
+        <li data-en="Org structure metric modeling" data-zh="组织结构度量建模">组织结构度量建模</li>
+        <li data-en="HR data cleaning &amp; visualization" data-zh="人力数据清洗与可视化">人力数据清洗与可视化</li>
+        <li data-en="Compensation benchmarking" data-zh="薪酬对标分析">薪酬对标分析</li>
+      </ul>
+    </div>
+    <div class="cap__col">
+      <h3 data-en="⚙️ HR Tech &amp; Tools" data-zh="⚙️ HR 数字化与工具">⚙️ HR 数字化与工具</h3>
+      <ul>
+        <li data-en="HRIS rebuild &amp; field design" data-zh="HRIS 系统重构与字段设计">HRIS 系统重构与字段设计</li>
+        <li data-en="AI-powered screening tool development" data-zh="AI 简历筛选工具开发">AI 简历筛选工具开发</li>
+        <li data-en="MS Office (advanced VLOOKUP, pivots)" data-zh="MS Office（VLOOKUP / 数据透视表）">MS Office（VLOOKUP / 数据透视表）</li>
+        <li data-en="SPSS · Tableau · Python (basic)" data-zh="SPSS · Tableau · Python（基础）">SPSS · Tableau · Python（基础）</li>
+        <li data-en="BOSS · Liepin · LinkedIn Recruiter" data-zh="BOSS · 猎聘 · LinkedIn Recruiter">BOSS · 猎聘 · LinkedIn Recruiter</li>
+      </ul>
+    </div>
+    <div class="cap__col">
+      <h3 data-en="🌍 Languages &amp; Soft Skills" data-zh="🌍 语言与软实力">🌍 语言与软实力</h3>
+      <ul>
+        <li data-en="English: <strong>IELTS 7.0</strong>, working language" data-zh="英语：<strong>雅思 7.0</strong>，可作为工作语言"><strong>英语：雅思 7.0</strong>，可作为工作语言</li>
+        <li data-en="CET-4 / CET-6 passed" data-zh="通过大学英语四、六级">通过大学英语四、六级</li>
+        <li data-en="Mandarin: native (Class-A Level 2)" data-zh="普通话：母语（二级甲等）">普通话：母语（二级甲等）</li>
+        <li data-en="Cross-cultural communication" data-zh="跨文化沟通">跨文化沟通</li>
+        <li data-en="Stakeholder management &amp; negotiation" data-zh="干系人管理与谈判">干系人管理与谈判</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="cap__interests">
+    <h3 data-en="Outside of work" data-zh="工作之外">工作之外</h3>
+    <p data-en="Latin dancer since childhood — multiple national gold medals &amp; certified at the Chinese DanceSport Association Gold Star level. The discipline, stage presence and resilience from the dance floor are the same qualities I bring to every team."
+       data-zh="自幼习拉丁舞，多次斩获全国金牌并通过国标舞协金星级别考核——舞台带来的自律、表现力与韧性，也是我带给团队的一部分。">
+       自幼习拉丁舞，多次斩获全国金牌并通过国标舞协金星级别考核——舞台带来的自律、表现力与韧性，也是我带给团队的一部分。
+    </p>
+  </div>
+</section>
+
+<!-- ============== CONTACT ============== -->
+<section class="section section--alt" id="contact">
+  <div class="section__head">
+    <span class="section__no">06</span>
+    <h2 class="section__title" data-en="Get in touch" data-zh="联系我">联系我</h2>
+  </div>
+
+  <div class="contact__wrap">
+    <p class="contact__lede"
+       data-en="HR is my career path. I'm always happy to chat about <strong>people, hiring and how to make work more human</strong>. Currently based in Singapore, open to relocate."
+       data-zh="以 HR 为职业发展方向。欢迎和我聊聊关于 <strong>「人」「招聘」与「让工作更有温度」</strong> 的一切。目前常驻新加坡，可考虑相关地区机会。">
+       以 HR 为职业发展方向。欢迎和我聊聊关于 <strong>「人」「招聘」与「让工作更有温度」</strong> 的一切。目前常驻新加坡，可考虑相关地区机会。
+    </p>
+
+    <div class="contact__cards">
+
+      <a class="contact__card" href="mailto:yao.jiatong@outlook.com">
+        <div class="contact__icon">✉️</div>
+        <div>
+          <span class="contact__label">Email</span>
+          <span class="contact__value">yao.jiatong@outlook.com</span>
+        </div>
+      </a>
+
+      <a class="contact__card" href="tel:+6589905227">
+        <div class="contact__icon">📱</div>
+        <div>
+          <span class="contact__label" data-en="Singapore Phone" data-zh="新加坡手机">新加坡手机</span>
+          <span class="contact__value">(+65) 8990 5227</span>
+        </div>
+      </a>
+
+      <a class="contact__card" href="tel:+8614795644158">
+        <div class="contact__icon">📞</div>
+        <div>
+          <span class="contact__label" data-en="China Phone / WeChat" data-zh="中国手机 / 微信">中国手机 / 微信</span>
+          <span class="contact__value">(+86) 147-9564-4158</span>
+        </div>
+      </a>
+
+      <a class="contact__card" href="https://www.linkedin.com/in/yao-jasmine" target="_blank" rel="noopener">
+        <div class="contact__icon">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.27c-.97 0-1.75-.79-1.75-1.76s.78-1.76 1.75-1.76 1.75.79 1.75 1.76-.78 1.76-1.75 1.76zm13.5 12.27h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3v-11h2.88v1.5h.04c.4-.76 1.38-1.56 2.84-1.56 3.04 0 3.6 2 3.6 4.59v6.47z"/></svg>
+        </div>
+        <div>
+          <span class="contact__label">LinkedIn</span>
+          <span class="contact__value">in/yao-jasmine</span>
+        </div>
+      </a>
+
+      <a class="contact__card" href="https://github.com/jasmineyao1112" target="_blank" rel="noopener">
+        <div class="contact__icon">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2.01c-3.2.69-3.87-1.54-3.87-1.54-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.34.96.1-.74.4-1.25.72-1.54-2.55-.29-5.24-1.27-5.24-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.16 1.17a10.96 10.96 0 0 1 5.75 0c2.2-1.48 3.16-1.17 3.16-1.17.62 1.58.23 2.75.11 3.04.74.8 1.18 1.82 1.18 3.07 0 4.39-2.69 5.36-5.25 5.64.41.35.78 1.04.78 2.1v3.11c0 .31.21.67.8.56C20.21 21.39 23.5 17.07 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>
+        </div>
+        <div>
+          <span class="contact__label">GitHub</span>
+          <span class="contact__value">jasmineyao1112</span>
+        </div>
+      </a>
+
+      <a class="contact__card" href="#projects">
+        <div class="contact__icon">🎓</div>
+        <div>
+          <span class="contact__label" data-en="Currently" data-zh="当前">当前</span>
+          <span class="contact__value" data-en="NUS HCMA · 2026 – 2027" data-zh="NUS · 人力资本管理与分析（2026 – 2027）">NUS · 人力资本管理与分析（2026 – 2027）</span>
+        </div>
+      </a>
+
+    </div>
+
+    <p class="contact__location" data-en="📍 Singapore · Open to relocate" data-zh="📍 常驻新加坡 · 可考虑相关地区机会">📍 常驻新加坡 · 可考虑相关地区机会</p>
+  </div>
+</section>
+
+<!-- ============== FOOTER ============== -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div>
+      <span class="brand-mark">JY</span>
+      <span data-en="© 2026 Jasmine Yao · 姚佳彤" data-zh="© 2026 姚佳彤 · Jasmine Yao">© 2026 姚佳彤 · Jasmine Yao</span>
+    </div>
+    <div class="footer__links">
+      <a href="#hero" data-en="Back to top ↑" data-zh="回到顶部 ↑">回到顶部 ↑</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
