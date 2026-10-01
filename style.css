@@ -631,7 +631,30 @@ a { color: inherit; text-decoration: none; }
   padding: 4px 10px;
   border-radius: 4px;
 }
-.proj__links { margin-top: 18px; }
+.proj__links { margin-top: 18px; display: flex; flex-wrap: wrap; gap: 10px; }
+
+/* Full-width featured card with screenshot (MMO Mapping) */
+.proj__card--wide {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 32px;
+  align-items: center;
+}
+.proj__body { display: flex; flex-direction: column; min-width: 0; }
+.proj__shot {
+  display: block;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-lg);
+}
+.proj__shot img { display: block; width: 100%; height: auto; transition: transform 0.4s; }
+.proj__shot:hover img { transform: scale(1.03); }
+@media (max-width: 900px) {
+  .proj__card--wide { grid-template-columns: 1fr; gap: 20px; }
+  .proj__shot { order: -1; }
+}
 
 /* ===== CAPABILITIES ===== */
 .cap__grid {
